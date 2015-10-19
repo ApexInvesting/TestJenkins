@@ -1,6 +1,6 @@
 require 'albacore'
 
-msbuild :build do |b|
+msbuild :msbuild do |b|
     b.properties = { :configuration => :Debug }
     b.targets = [ :Build ]
     b.solution = "TestJenkins.sln"
