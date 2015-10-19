@@ -54,7 +54,6 @@
     <None Include="App.config" />
     <None Include="appspec.yml" />
     <None Include="packages.config" />
-    <None Include="rakefile.rb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

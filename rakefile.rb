@@ -1,4 +1,4 @@
-﻿require 'albacore'
+require 'albacore'
 
  msbuild :build do |b|
      b.properties = { :configuration => :Debug }
