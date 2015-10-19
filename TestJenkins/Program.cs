@@ -10,6 +10,7 @@ namespace TestJenkins {
         static void Main(string[] args) {
             var x = JsonConvert.SerializeObject(new { A = "A", B = "B" });
             Console.WriteLine("Jenkins is up! " + x);
+            Console.ReadKey();
         }
     }
 }

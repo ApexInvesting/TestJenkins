@@ -86,13 +86,9 @@ hooks:
 #      runas: 
 # During the BeforeInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-#  BeforeInstall:
-#    - location: 
-#      timeout:
-#      runas: 
-#    - location: 
-#      timeout:
-#      runas:
+  BeforeInstall:
+    - location: BeforeInstall.bat
+      timeout: 300
 # During the AfterInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
 #  AfterInstall:
