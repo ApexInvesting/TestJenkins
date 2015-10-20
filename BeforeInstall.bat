@@ -1,2 +1,2 @@
-taskkill /f /fi "windowtitle eq C:\Services\TestJenkins\TestJenkins.exe"
+taskkill /f /fi "windowtitle eq TestJenkins-Stage"
 rmdir /s /q C:\Services\TestJenkins
