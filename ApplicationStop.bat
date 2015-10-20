@@ -1,1 +1,1 @@
-taskkill /f /fi "windowtitle eq TestJenkins-Stage"
+taskkill /f /im "TestJenkins"

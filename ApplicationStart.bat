@@ -1,1 +1,1 @@
-start "TestJenkins-Stage" "C:\Services\TestJenkins\TestJenkins.exe"
+start C:\Services\TestJenkins\TestJenkins.exe
