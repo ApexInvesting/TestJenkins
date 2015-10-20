@@ -1,1 +1,1 @@
-taskkill /f /im "TestJenkins"
+taskkill /f /im "TestJenkins.exe"
