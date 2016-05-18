@@ -1,1 +1,1 @@
-start cmd /c "C:\Services\TestJenkins\TestJenkins.exe""
+start "" "C:\Services\TestJenkins\TestJenkins.exe""
